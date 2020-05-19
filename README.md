@@ -4,7 +4,7 @@ Challenges | Links
 ---------- | ------
 Code Challenge 1| [Code Challenge 1](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/1)
 Code Challenge 2 | [Code Challenge 02](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/2) 
-Code Challenge 3 | [Code Challenge 03]()
+Code Challenge 3 | [Code Challenge 03](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/3)
 Code Challenge 4 | [Code Challenge 04]()
 Code Challenge 5 | [Code Challenge 05]()
 Code Challenge 6 | [Code Challenge 06]()
