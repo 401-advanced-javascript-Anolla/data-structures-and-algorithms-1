@@ -4,7 +4,7 @@ I used an array method which is 'slice' that returns an array by passing an argu
 
 ## Challenge
 <!-- Description of the challenge -->
-The challenge was about creating a function which takes in an array and a value to be added in the middle index.
+Creating which takes in 2 parameters: a sorted array and the search key, returns the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -12,4 +12,4 @@ I divided the array in half then I joined the two halfs by using concat
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Whitboard](assets/whiteboardCC2.JPG)
+![Whitboard](assets/whiteboardCC3.JPG)
