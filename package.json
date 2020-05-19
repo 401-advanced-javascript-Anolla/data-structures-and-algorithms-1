@@ -1,0 +1,26 @@
+{
+  "name": "data-structures-and-algorithms-1",
+  "version": "1.0.0",
+  "description": "<!-- Short summary or background information --> I used an array method which is 'splice' that insert an element into an array .",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1#readme",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {}
+}
