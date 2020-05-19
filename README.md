@@ -1,6 +1,6 @@
 # Reverse an Array
 <!-- Short summary or background information -->
-I used an array method which is 'slice' that returns an array by passing an argumant/s.
+I used a for loop that iterates over the array and an if statement.
 
 ## Challenge
 <!-- Description of the challenge -->

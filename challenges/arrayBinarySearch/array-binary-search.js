@@ -4,7 +4,7 @@ function BinarySearch (sortedArray,searchKey) {
   let result;
   for(let i=0;i<sortedArray.length;i++){
     if(searchKey!==sortedArray[i]){
-      result = -1;
+      result -1;
     }
     else{
       result=i;
