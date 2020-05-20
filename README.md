@@ -1,15 +1,19 @@
-# Reverse an Array
-<!-- Short summary or background information -->
-I used an array method which is 'slice' that returns an array by passing an argumant/s.
+data-structures-and-algorithms-1
 
-## Challenge
-<!-- Description of the challenge -->
-The challenge was about creating a function which takes in an array and a value to be added in the middle index.
-
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-I divided the array in half then I joined the two halfs by using concat
-
-## Solution
-<!-- Embedded whiteboard image -->
-![Whitboard](assets/whiteboardCC2.JPG)
+Challenges | Links
+---------- | ------
+Code Challenge 1| [Code Challenge 1](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/1)
+Code Challenge 2 | [Code Challenge 02](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/2) 
+Code Challenge 3 | [Code Challenge 03](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/3)
+Code Challenge 4 | [Code Challenge 04]()
+Code Challenge 5 | [Code Challenge 05]()
+Code Challenge 6 | [Code Challenge 06]()
+Code Challenge 7 | [Code Challenge 07]()
+Code Challenge 8 | [Code Challenge 08]()
+Code Challenge 9 | [Code Challenge 09]()
+Code Challenge 10 | [Code Challenge 10]()
+Code Challenge 11 | [Code Challenge 11]()
+Code Challenge 12 | [Code Challenge 12]()
+Code Challenge 13 | [Code Challenge 13]()
+Code Challenge 14 | [Code Challenge 14]()
+Code Challenge 15 | [Code Challenge 15]()
