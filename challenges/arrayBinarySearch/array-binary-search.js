@@ -1,8 +1,8 @@
 'use strict';
 
 function BinarySearch (sortedArray,searchKey) {
-  let result;
-  for(let i=0;i<sortedArray.length;i++){
+  var result;
+  for(var i=0;i<sortedArray.length;i++){
     if(searchKey!==sortedArray[i]){
       result -1;
     }
