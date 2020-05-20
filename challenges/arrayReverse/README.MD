@@ -12,5 +12,4 @@ Making a new array and pushing the reveresed value to it.
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Whitboard](assets/array-reverse.JPG)
-# data-structures-and-algorithms-1
+![Whitboard](../../assets/array-reverse.JPG)
