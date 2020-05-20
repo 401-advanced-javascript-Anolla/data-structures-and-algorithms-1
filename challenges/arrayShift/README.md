@@ -12,4 +12,4 @@ I divided the array in half then I joined the two halfs by using concat
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![Whitboard](../assets/whiteboardCC2.JPG)
+![Whitboard](../../assets/whiteboardCC2.JPG)
