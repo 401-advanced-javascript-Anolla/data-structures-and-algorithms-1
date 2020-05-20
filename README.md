@@ -1,15 +1,20 @@
-# Reverse an Array
-<!-- Short summary or background information -->
-I used a for loop that iterates over the array and an if statement.
 
-## Challenge
-<!-- Description of the challenge -->
-Creating which takes in 2 parameters: a sorted array and the search key, returns the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
+# data-structures-and-algorithms-1
 
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-I divided the array in half then I joined the two halfs by using concat
-
-## Solution
-<!-- Embedded whiteboard image -->
-![Whitboard](assets/whiteboardCC3.JPG)
+Challenges | Links
+---------- | ------
+Code Challenge 1| [Code Challenge 1](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/1)
+Code Challenge 2 | [Code Challenge 02](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/2) 
+Code Challenge 3 | [Code Challenge 03](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/3)
+Code Challenge 4 | [Code Challenge 04]()
+Code Challenge 5 | [Code Challenge 05]()
+Code Challenge 6 | [Code Challenge 06]()
+Code Challenge 7 | [Code Challenge 07]()
+Code Challenge 8 | [Code Challenge 08]()
+Code Challenge 9 | [Code Challenge 09]()
+Code Challenge 10 | [Code Challenge 10]()
+Code Challenge 11 | [Code Challenge 11]()
+Code Challenge 12 | [Code Challenge 12]()
+Code Challenge 13 | [Code Challenge 13]()
+Code Challenge 14 | [Code Challenge 14]()
+Code Challenge 15 | [Code Challenge 15]()
