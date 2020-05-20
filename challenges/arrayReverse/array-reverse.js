@@ -1,3 +1,5 @@
+'use strict';
+
 function reverseFun(arr) {
     let arrReversed = [];
     for (let i = arr.length; i > 0; i--) {
