@@ -1,4 +1,4 @@
-# Reverse an Array
+# Binary search
 <!-- Short summary or background information -->
 I used a for loop that iterates over the array and an if statement.
 

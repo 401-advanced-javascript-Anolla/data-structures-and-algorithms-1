@@ -1,4 +1,4 @@
-# Reverse an Array
+# Shift an Array
 <!-- Short summary or background information -->
 I used an array method which is 'slice' that returns an array by passing an argumant/s.
 
