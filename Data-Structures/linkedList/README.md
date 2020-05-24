@@ -1,6 +1,4 @@
 
-# Singly Linked Lists
-
 # Singly Linked List
 <!-- Short summary or background information -->
 - creating singly a linked list.
