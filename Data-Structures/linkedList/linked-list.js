@@ -59,7 +59,7 @@ class LinkedList {
   }
 }
 
-
+module.exports = LinkedList;
 
 const list = new LinkedList();
 list.insert('first node');
