@@ -23,6 +23,6 @@ Define a method called toString (or __str__ in Python) which takes in no argumen
  - for the includes I used while to iterate over the linkedlist object, it checks if the value entered is in one of values in the linked list.
   - for to string method I used while loop also to iterate over the list, it return the values of each object in the list as a string.
 
-##### the big O of each method is BigO(n).
+#### The big O of each method is BigO(n).
 
 
