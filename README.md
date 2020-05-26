@@ -6,7 +6,7 @@ Challenges | Links
 Code Challenge 1 | [Array Reverse](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/1)
 Code Challenge 2 | [Array Shift](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/2) 
 Code Challenge 3 | [Array Binary Search](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/3)
-Code Challenge 4 | [Code Challenge 04](https://docs.google.com/spreadsheets/d/1Tj5chS-pZ5IycOafbB336T6LvghVpM_MJpU_4QPynww/edit#gid=0)
+Code Challenge 4 | [Matrix](https://docs.google.com/spreadsheets/d/1Tj5chS-pZ5IycOafbB336T6LvghVpM_MJpU_4QPynww/edit#gid=0)
 Code Challenge 5 | [Singly Linked List](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/5)
 Code Challenge 6 | [Code Challenge 06]()
 Code Challenge 7 | [Code Challenge 07]()
