@@ -3,7 +3,7 @@
 const linkedList = require('../Data-Structures/linkedList/linked-list');
 
 describe('Linked List Module', () => {
-  
+
   it('1. Can successfully instantiate an empty linked list', () => {
     const linkedListInstance = new linkedList();
     expect(linkedListInstance.head).toBeNull();
@@ -11,7 +11,7 @@ describe('Linked List Module', () => {
 
   it('2. Can properly insert into the linked list', () => {
     const linkedListInstance = new linkedList();
-    linkedListInstance.insert(7); 
+    linkedListInstance.insert(7);
     expect(linkedListInstance.head.value).toStrictEqual(7);
   });
 
@@ -55,5 +55,60 @@ describe('Linked List Module', () => {
     linkedListInstance.insert(30);
     linkedListInstance.insert(100);
     expect(linkedListInstance.toString()).toStrictEqual('{100} -> {30} -> {77} -> {55} -> {11} -> NULL');
+  });
+});
+
+describe('Linked List Module 2', () => {
+
+  it('1. Can successfully add a node to the end of the linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    expect(linkedListInstance.head.next.value).toEqual(14);
+  });
+
+  it('2. Can successfully add multiple nodes to the end of a linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    linkedListInstance.append(84);
+    expect(linkedListInstance.head.next.next.value).toStrictEqual(84);
+  });
+
+  it('3. Can successfully insert a node before a node located in the middle of a linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    linkedListInstance.append(84);
+    console.log(linkedListInstance.insertBefore(84,0));
+    expect(linkedListInstance.head.next.next.value).toStrictEqual(0);
+  });
+
+  it('4. Can successfully insert a node before the first node of a linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    linkedListInstance.append(84);
+    console.log(linkedListInstance.insertBefore(14,0));
+    expect(linkedListInstance.head.next.value).toStrictEqual(0);
+
+  });
+
+  it('5. Can successfully insert after a node in the middle of the linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    linkedListInstance.append(84);
+    console.log(linkedListInstance.insertAfter(14,0));
+    expect(linkedListInstance.head.next.next.value).toStrictEqual(0);
+  });
+
+  it('6. Can successfully insert a node after the last node of the linked list', () => {
+    const linkedListInstance = new linkedList();
+    linkedListInstance.append(20);
+    linkedListInstance.append(14);
+    linkedListInstance.append(84);
+    console.log(linkedListInstance.insertAfter(84,0));
+    expect(linkedListInstance.head.next.next.next.value).toStrictEqual(0);
   });
 });
