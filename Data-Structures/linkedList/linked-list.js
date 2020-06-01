@@ -57,6 +57,55 @@ class LinkedList {
     // console.log(allValues)
     return allValues;
   }
+
+  append(value){
+    let node =new Node(value);
+    if(!this.head){
+      this.head=node;
+      return this;
+    }
+  
+    let current = this.head;
+    while(current.next){
+      current=current.next;
+    }
+    current.next=node;
+    return this;
+  }
+  
+  insertBefore(value, newVal){
+    let newNode = new Node(newVal); 
+    let existingNode =new Node(value);
+    let current = this.head;
+    while(current.next){
+      if(current.next.value===existingNode.value){
+        existingNode.next=current.next.next;
+        newNode.next= existingNode;
+        current.next= newNode;
+        return this;
+      }
+      //  console.log(current.next)
+      current=current.next;
+    }
+    return ('Exception');
+  }
+
+  
+  insertAfter(value, newVal){
+    let newNode = new Node(newVal); 
+    let existingNode =new Node(value);
+    let current = this.head;
+    while(current.next){
+      if(current.next.value===existingNode.value){
+        newNode.next=current.next.next;
+        current.next.next= newNode;
+        //  current.next= newNode;
+        return this;
+      }
+      current=current.next;
+    }
+    return ('Exception');
+  }
 }
 
 module.exports = LinkedList;
@@ -68,3 +117,13 @@ list.insert('last node');
 console.log(list.includes('first node'));
 console.log(list);
 console.log(list.toString());
+
+list.append(20);
+list.append(14);
+list.append(84);
+list.append(3);
+list.append(8);
+console.log(list.insertBefore(84,0));
+console.log(list.insertAfter(84,8));
+
+console.log(list.head.next.next);
