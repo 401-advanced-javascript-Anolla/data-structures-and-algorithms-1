@@ -58,6 +58,8 @@ describe('Linked List Module', () => {
   });
 });
 
+/////////////////////////////// CODE CHALLENGE 6
+
 describe('Linked List Module 2', () => {
 
   it('1. Can successfully add a node to the end of the linked list', () => {
@@ -111,4 +113,31 @@ describe('Linked List Module 2', () => {
     console.log(linkedListInstance.insertAfter(84,0));
     expect(linkedListInstance.head.next.next.next.value).toStrictEqual(0);
   });
+});
+
+/////////////////////////////// CODE CHALLENGE 7
+
+describe('Linked List Module 3', () => {
+
+  it('1. Where k is greater than the length of the linked list', () => {
+    
+  });
+
+  it('2. Where k and the length of the list are the same', () => {
+    
+  });
+
+  it('3. Where k is not a positive integer', () => {
+   
+  });
+
+  it('4. Where the linked list is of a size 1', () => {
+    
+
+  });
+
+  it('5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list', () => {
+    
+  });
+
 });

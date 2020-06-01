@@ -51,3 +51,20 @@ Creating three methods append, insert before, and insert after
 
 ## Solution
 ![Code challenge 6 Whiteboard](../../assets/cc6.png)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+# Code Challenge 7
+
+# Challenge Summary
+- Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list
+
+## Challenge Description
+- Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list
+
+## Approach & Efficiency
+
+### The bigO of time is BigO(n) and The bigO of space is BigO(1).
+
+## Solution
+![Code challenge 6 Whiteboard](../../assets/cc7.png)

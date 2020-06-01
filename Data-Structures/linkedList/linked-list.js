@@ -106,24 +106,50 @@ class LinkedList {
     }
     return ('Exception');
   }
+
+  kthFromEnd(k){
+    let current= this.head;
+    let count=0;
+    while (current.next){
+      current= current.next;
+      count++;
+    }
+    current=this.head;
+    while(current.next){
+      current.next.count=count-1;
+      //  console.log(current.next);
+      current= current.next;
+      count--;
+    }
+    //  current.count=count
+    current=this.head;
+    while(current.next){
+    //  console.log(current.next.count)
+      if(current.next.count===k){
+        return current.next.value;
+      }
+      current= current.next;
+    }
+    return 'Exception';
+  }
 }
 
 module.exports = LinkedList;
 
 const list = new LinkedList();
-list.insert('first node');
-list.insert('new node');
-list.insert('last node');
-console.log(list.includes('first node'));
-console.log(list);
-console.log(list.toString());
+// list.insert('first node');
+// list.insert('new node');
+// list.insert('last node');
+// console.log(list.includes('first node'));
+// console.log(list);
+// console.log(list.toString());
 
 list.append(20);
 list.append(14);
 list.append(84);
 list.append(3);
 list.append(8);
-console.log(list.insertBefore(84,0));
-console.log(list.insertAfter(84,8));
-
-console.log(list.head.next.next);
+// console.log(list.insertBefore(84,0));
+// console.log(list.insertAfter(84,8));
+// console.log(list.head.next.next);
+console.log(list.kthFromEnd(3));
