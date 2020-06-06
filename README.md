@@ -12,7 +12,7 @@ Code Challenge 6 | [Singly Linked List Continued part 1](https://github.com/401-
 Code Challenge 7 | [Singly Linked List Continued part 2](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/8)
 Code Challenge 8 | [Merge Two Lists](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/9)
 Code Challenge 9 | [Code Challenge 09]()
-Code Challenge 10 | [Code Challenge 10]()
+Code Challenge 10 | [Stack and Queue](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/11)
 Code Challenge 11 | [Code Challenge 11]()
 Code Challenge 12 | [Code Challenge 12]()
 Code Challenge 13 | [Code Challenge 13]()

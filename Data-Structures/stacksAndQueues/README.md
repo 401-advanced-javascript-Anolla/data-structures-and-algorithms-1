@@ -31,4 +31,4 @@ Should raise exception when called on empty queue
 - On the whiteboard
 
 ## Solution
-![Code challenge 10 Whiteboard](../../assets/cc10.png)
+![Code challenge 10 Whiteboard](../../assets/cc10-.png)
