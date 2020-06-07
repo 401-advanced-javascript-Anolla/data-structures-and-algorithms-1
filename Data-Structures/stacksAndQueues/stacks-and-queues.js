@@ -20,9 +20,9 @@ class Stack {
   }
   
   pop() {
-    // const item = this.storage.shift();
+    const item = this.storage.shift();
     this.top = this.storage[0] ? this.storage[0] : null;
-    return this.top.value;
+    return item;
   }
   
   peek() {
@@ -69,9 +69,9 @@ class Queue {
     //this.storage.unshift(item)
   }
   dequeue() {
-    // const item = this.storage.shift();
+    const item = this.storage.shift();
     this.front = this.storage[0] ? this.storage[0] : null;
-    return this.front;
+    return item;
     // return this.storage.pop()
   }
 
