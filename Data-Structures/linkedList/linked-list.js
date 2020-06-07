@@ -136,7 +136,7 @@ class LinkedList {
 
 module.exports = LinkedList;
 
-const list = new LinkedList();
+// const list = new LinkedList();
 // list.insert('first node');
 // list.insert('new node');
 // list.insert('last node');
@@ -144,12 +144,12 @@ const list = new LinkedList();
 // console.log(list);
 // console.log(list.toString());
 
-list.append(20);
-list.append(14);
-list.append(84);
-list.append(3);
-list.append(8);
+// list.append(20);
+// list.append(14);
+// list.append(84);
+// list.append(3);
+// list.append(8);
 // console.log(list.insertBefore(84,0));
 // console.log(list.insertAfter(84,8));
 // console.log(list.head.next.next);
-console.log(list.kthFromEnd(3));
+// console.log(list.kthFromEnd(3));
