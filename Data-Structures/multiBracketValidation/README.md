@@ -10,10 +10,10 @@
 - Curly Brackets : \{\}
 
 ## Approach & Efficiency 
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ### The bigO
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ## Solution
 ![Code challenge 13 Whiteboard](../../assets/cc13.png)
