@@ -14,7 +14,7 @@ Code Challenge 8 | [Merge Two Lists](https://github.com/401-advanced-javascript-
 Code Challenge 9 | [Code Challenge 09]()
 Code Challenge 10 | [Stack and Queue](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/11)
 Code Challenge 11 | [Queue with stacks](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/12)
-Code Challenge 12 | [Code Challenge 12]()
+Code Challenge 12 | [Code Challenge 12](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/14)
 Code Challenge 13 | [Code Challenge 13](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/13)
 Code Challenge 14 | [Code Challenge 14]()
 Code Challenge 15 | [Code Challenge 15]()
