@@ -47,22 +47,22 @@ class BinaryTree{
   }
 }
 
-function FizzBuzzTree(treee) {
-  treee.map((val, i) => {
+function FizzBuzzTree(tree) {
+  tree.map((val, i) => {
     if (val % 15== 0) {
-      treee[i] = 'FizzBuzz';
+      tree[i] = 'FizzBuzz';
     }
     else if (val % 3 == 0) {
-      treee[i] = 'Fizz';
+      tree[i] = 'Fizz';
     }
     else if (val % 5 == 0) {
-      treee[i] = 'Buzz';
+      tree[i] = 'Buzz';
     }
     else {
-      treee[i] = val.toString();
+      tree[i] = val.toString();
     }
   });
-  return treee;
+  return tree;
 }
 
 
