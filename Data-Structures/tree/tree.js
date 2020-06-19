@@ -121,7 +121,7 @@ class BinarySearchTree {
 }
 
 
-let treeBST= new BinarySearchTree()
+let treeBST= new BinarySearchTree();
 console.log(treeBST.add(8));
 console.log(treeBST.add(5));
 console.log(treeBST.add(20));
