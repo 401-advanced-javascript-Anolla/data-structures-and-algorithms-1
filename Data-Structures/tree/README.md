@@ -1,8 +1,5 @@
 # Code Challenge 15
 
-# Challenge Summary
-- Trees
-
 ## Challenge Description
 - Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
 Create a BinaryTree class
@@ -14,10 +11,10 @@ Define a method named add that accepts a value, and adds a new node with that va
 Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
 
 ## Approach & Efficiency 
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ### The bigO
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ## Solution
 ![Code challenge 15 Whiteboard](../../assets/cc15.png)
