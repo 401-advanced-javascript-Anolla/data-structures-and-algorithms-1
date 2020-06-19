@@ -12,10 +12,10 @@
  - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ## Approach & Efficiency 
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ### The bigO
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ## Solution
 ![Code challenge 16 Whiteboard](../../assets/cc16.png)
