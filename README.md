@@ -19,3 +19,4 @@ Code Challenge 13 | [Code Challenge 13](https://github.com/401-advanced-javascri
 Code Challenge 14 | [Code Challenge 14]()
 Code Challenge 15 | [Trees](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/15)
 Code Challenge 26 | [Insertion Sort](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/19)
+Code Challenge 28 | [Quick Sort](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/21)
