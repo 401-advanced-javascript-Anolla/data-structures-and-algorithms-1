@@ -7,4 +7,4 @@ Once you are done with your article, code a working, tested implementation of In
 
 
 ## Solution
-![visual step](../../assets/ch26r.jpg)
+![visual step](../../assets/ch26r.png)
