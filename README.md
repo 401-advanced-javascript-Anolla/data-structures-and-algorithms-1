@@ -21,3 +21,4 @@ Code Challenge 15 | [Trees](https://github.com/401-advanced-javascript-Anolla/da
 Code Challenge 26 | [Insertion Sort](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/19)
 Code Challenge 31 | [Repeated Word](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/23)
 Code Challenge 32 | [Common in 2 binary trees](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/24)
+Code Challenge 33 | [LEFT JOIN for 2 Hashmaps.](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/25)
