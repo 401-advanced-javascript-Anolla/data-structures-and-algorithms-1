@@ -48,7 +48,7 @@ class Graph {
     }
   }
 
-//   Size(){
+  //   Size(){
 
 //   }
 }
@@ -76,4 +76,5 @@ graph.addEdge(three, seven);
 graph.addEdge(eight, three);
 // console.log(graph);
 graph.printAll();
-console.log('NEIGHBORS', graph.getNeighbors(ten));
+console.log('NEIGHBORS', graph.getNeighbors(seven));
+console.log('NEIGHBORS', graph.getNeighbors(three));
