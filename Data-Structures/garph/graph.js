@@ -39,6 +39,14 @@ class Graph {
       return this._adjacencyList.get(vertex);
     }
   }
+  
+  //   Size(){
+
+  //   }
+
+  // getVertices(){
+
+  // }
 
   printAll() {
     // console.log(this._adjacencyList.entries());
@@ -48,9 +56,6 @@ class Graph {
     }
   }
 
-  //   Size(){
-
-//   }
 }
 const graph = new Graph();
 const ten = new Vertex(10);
