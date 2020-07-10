@@ -31,4 +31,4 @@
 - On the whiteboard
 
 ## Solution
-![Code challenge 35 Whiteboard](../../assets/cc35.png)
+![Code challenge 35 Whiteboard](../../assets/ch35.png)
