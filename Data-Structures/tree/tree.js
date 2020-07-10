@@ -131,4 +131,4 @@ console.log(treeBST.add(3));
 console.log(treeBST.contains(20));
 console.log(treeBST.contains(0));
 
-module.exports = {Node,BinaryTree,BinarySearchTree};
+module.exports = BinaryTree;
