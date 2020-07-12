@@ -40,20 +40,15 @@ class Graph {
     }
   }
   
-  //   Size(){
-
-  //   }
-
-  // getVertices(){
-
-  // }
-
-  printAll() {
-    // console.log(this._adjacencyList.entries());
-    for (const [vertex, edge] of this._adjacencyList.entries()) {
+  getVertices(){
+    for( const [vertex, edge] of this._adjacencyList.entries()){
       console.log('Vertex> ', vertex);
-      console.log('Edges>', edge);
+      console.log('Edge> ', edge);          
     }
+  }
+
+  Size(){
+    return this._adjancyList.size;
   }
 
 }
@@ -80,6 +75,6 @@ graph.addEdge(six, eight);
 graph.addEdge(three, seven);
 graph.addEdge(eight, three);
 // console.log(graph);
-graph.printAll();
+graph.getVertices();
 console.log('NEIGHBORS', graph.getNeighbors(seven));
 console.log('NEIGHBORS', graph.getNeighbors(three));
