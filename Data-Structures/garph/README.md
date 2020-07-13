@@ -32,3 +32,19 @@
 
 ## Solution
 ![Code challenge 35 Whiteboard](../../assets/ch35.png)
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Code Challenge 36
+
+## Challenge Description
+- Extend your graph object with a breadth-first traversal method that accepts a starting node. Without utilizing any of the built-in methods available to your language, return a collection of nodes in the order they were visited. Display the collection.
+
+<!-- ## Approach & Efficiency 
+- On the whiteboard
+
+### The bigO
+- On the whiteboard -->
+
+## Solution
+![Code challenge 35 Whiteboard](../../assets/ch36.png)

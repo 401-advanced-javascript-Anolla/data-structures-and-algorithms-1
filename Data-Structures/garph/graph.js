@@ -51,6 +51,10 @@ class Graph {
     return this._adjancyList.size;
   }
 
+  // breadthFirst(){
+
+  // }
+
 }
 const graph = new Graph();
 const ten = new Vertex(10);
