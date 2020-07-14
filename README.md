@@ -24,3 +24,4 @@ Code Challenge 32 | [Common in 2 binary trees](https://github.com/401-advanced-j
 Code Challenge 33 | [LEFT JOIN for 2 Hashmaps.](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/25)
 Code Challenge 35 | [Graph](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/26)
 Code Challenge 37 | [getEdges-graph](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/29)
+Code Challenge 38 | [depthFirst-graph](https://github.com/401-advanced-javascript-Anolla/data-structures-and-algorithms-1/pull/30)
