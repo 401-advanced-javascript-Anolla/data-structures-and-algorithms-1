@@ -48,6 +48,19 @@ class BinaryTree {
     _traversal(this.root);
     return results;
   }
+
+  findMaximumValue(){
+    let max = 0;
+    let _traversal = (node) => {
+      if(node.value>max){
+        max = node.value;
+      }
+      if (node.left) _traversal(node.left);
+      if (node.right) _traversal(node.right);
+    };
+    _traversal(this.root);
+    return max;
+  }
 }
   
 const one = new Node(1);
@@ -72,6 +85,7 @@ let tree = new BinaryTree(one);
 console.log(tree.preOrder());
 console.log(tree.inOrder());
 console.log(tree.postOrder());
+console.log(tree.findMaximumValue());
   
   
 class BinarySearchTree {
@@ -130,5 +144,6 @@ console.log(treeBST.add(3));
 
 console.log(treeBST.contains(20));
 console.log(treeBST.contains(0));
+
 
 module.exports = {Node,BinaryTree,BinarySearchTree};
