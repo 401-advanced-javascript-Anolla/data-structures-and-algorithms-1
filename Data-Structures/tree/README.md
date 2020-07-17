@@ -1,3 +1,4 @@
+
 # Code Challenge 16
 
 ## Challenge Description
@@ -12,3 +13,4 @@
 
 ## Solution
 ![Code challenge 16 Whiteboard](../../assets/ch16.png)
+
