@@ -46,7 +46,7 @@ Define a method named contains that accepts a value, and returns a boolean indic
 - On the whiteboard
 
 ### The bigO
-- Time > BigO(h)
+- Time > BigO(h) 
 - Space > BigO(1)
 
 ## Solution
