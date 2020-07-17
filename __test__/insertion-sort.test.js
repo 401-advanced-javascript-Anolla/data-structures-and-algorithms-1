@@ -1,6 +1,6 @@
 'use strict';
 
-const InsertionSort = require ('../Insertion-Sort/insertion-sort');
+const InsertionSort = require ('../challenges/Insertion-Sort/insertion-sort.js');
 
 describe('Insertion Sort Module', () => {
   it('Sorts the elements of the passed array in an ascending order', () => {
