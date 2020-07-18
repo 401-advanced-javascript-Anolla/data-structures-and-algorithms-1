@@ -95,7 +95,5 @@ q.enqueue(5);
 // console.log(q);
 
 
-module.exports = Node;
-module.exports = Stack;
-// module.exports = Queue;
+module.exports = {Node,Stack,Queue};
 
