@@ -21,7 +21,7 @@ Define a method named contains that accepts a value, and returns a boolean indic
 
 ## Solution
 ![Code challenge 15 Whiteboard](../../assets/cc15.png)
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 # Code Challenge 16
 
 ## Challenge Description
@@ -36,4 +36,20 @@ Define a method named contains that accepts a value, and returns a boolean indic
 
 ## Solution
 ![Code challenge 16 Whiteboard](../../assets/ch16.png)
+
+-----------------------------------------------------------------------------------------------------------------
+# Code Challenge 17
+
+## Challenge Description
+- Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Approach & Efficiency 
+- On the whiteboard
+
+### The bigO
+- Time > BigO(h) 
+- Space > BigO(1)
+
+## Solution
+![Code challenge 17 Whiteboard](../../assets/ch17.png)
 
