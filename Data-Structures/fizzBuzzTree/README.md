@@ -1,4 +1,5 @@
-# Code Challenge 16
+
+# Code Challenge 18
 
 # Challenge Summary
 - Conduct “FizzBuzz” on a tree while traversing through it. Change the values of each of the nodes dependent on the current node’s value
@@ -12,10 +13,12 @@
  - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ## Approach & Efficiency 
-<!-- - On the whiteboard -->
+- On the whiteboard
 
 ### The bigO
-<!-- - On the whiteboard -->
+- Time -> BigO(n)
+- Space -> BigO(1)
 
 ## Solution
-![Code challenge 16 Whiteboard](../../assets/cc16.png)
+![Code challenge 18 Whiteboard](../../assets/cc18.png)
+
