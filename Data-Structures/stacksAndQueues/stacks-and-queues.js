@@ -1,3 +1,4 @@
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -96,4 +97,3 @@ q.enqueue(5);
 
 
 module.exports = {Node,Stack,Queue};
-

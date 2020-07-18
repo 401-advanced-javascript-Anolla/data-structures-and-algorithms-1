@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 class Node {
   constructor(value, left = null, right = null) {
     this.value = value;
@@ -64,6 +62,7 @@ class BinaryTree {
     return max;
   }
 
+
   BreadthFirstTraversal(){
     let queue=[];
     let results=[];
@@ -115,6 +114,7 @@ console.log(tree.inOrder());
 console.log(tree.postOrder());
 console.log(tree.findMaximumValue());
 console.log('aaarrrraaaay',tree.BreadthFirstTraversal());
+
   
   
 class BinarySearchTree {

@@ -36,6 +36,7 @@ Define a method named contains that accepts a value, and returns a boolean indic
 
 ## Solution
 ![Code challenge 16 Whiteboard](../../assets/ch16.png)
+
 -----------------------------------------------------------------------------------------------------------------
 # Code Challenge 17
 
@@ -51,3 +52,4 @@ Define a method named contains that accepts a value, and returns a boolean indic
 
 ## Solution
 ![Code challenge 17 Whiteboard](../../assets/ch17.png)
+
