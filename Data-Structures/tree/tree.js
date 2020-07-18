@@ -63,6 +63,7 @@ class BinaryTree {
   }
 
 
+
   breadthFirstTraversal(){
     let queue=[];
     let results=[];
@@ -88,6 +89,7 @@ class BinaryTree {
     return results;
 
   }
+
 }
   
 const one = new Node(1);
@@ -109,11 +111,13 @@ seven.left = eight;
 seven.right = nine;
 let tree = new BinaryTree(one);
 
+
 // console.log(tree.preOrder());
 // console.log(tree.inOrder());
 // console.log(tree.postOrder());
 // console.log(tree.findMaximumValue());
 // console.log('aaarrrraaaay',tree.breadthFirstTraversal());
+
 
   
   
@@ -165,6 +169,7 @@ class BinarySearchTree {
 
 
 let treeBST= new BinarySearchTree();
+
 // console.log(treeBST.add(8));
 // console.log(treeBST.add(5));
 // console.log(treeBST.add(20));
@@ -173,6 +178,7 @@ let treeBST= new BinarySearchTree();
 
 // console.log(treeBST.contains(20));
 // console.log(treeBST.contains(0));
+
 
 
 module.exports = {Node,BinaryTree,BinarySearchTree};

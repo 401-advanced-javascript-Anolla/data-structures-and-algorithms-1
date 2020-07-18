@@ -1,3 +1,4 @@
+
 # Code Challenge 18
 
 # Challenge Summary
@@ -20,3 +21,4 @@
 
 ## Solution
 ![Code challenge 18 Whiteboard](../../assets/cc18.png)
+
