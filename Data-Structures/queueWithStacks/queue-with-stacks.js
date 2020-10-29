@@ -12,6 +12,7 @@ const Stack= require('../stacksAndQueues/stacks-and-queues');
 // console.log(stack);
 
 
+
 class PseudoQueue {
   constructor(){
     this.stack1 = new Stack();
@@ -20,32 +21,33 @@ class PseudoQueue {
   
   enqueue(value){
     this.stack1.push(value);
+    // console.log('stack1111111',this.stack1)
   }
   
   dequeue(){
-    if (this.stack2.length === 0) {
-      if (this.stack1.length === 0) {
-        return null;
-      }
-      while (this.stack1.length > 0) {
-        let pop1 = this.stack1.pop();
-        this.stack2.push(pop1);
-      }
+    while (this.stack1.storage.length) {
+      // console.log('helloooooooo')
+      let pop1 = this.stack1.pop();
+      // console.log('pop111111',pop1)
+      this.stack2.push(pop1);
+      // console.log('stack22222',this.stack2)
     }
-    return this.stack2.pop();
+    let popped= this.stack2.pop();
+    return popped;
   }
 }
   
 
 let pseudoQueue = new PseudoQueue();
-pseudoQueue.enqueue(10);
-pseudoQueue.enqueue(15);
-pseudoQueue.enqueue(20);
-console.log(pseudoQueue.stack1);
+pseudoQueue.enqueue(1);
+pseudoQueue.enqueue(2);
+pseudoQueue.enqueue(3);
+console.log('dequeueing',pseudoQueue.dequeue());
+// console.log(pseudoQueue.stack1);
 
-pseudoQueue.enqueue(20);
-pseudoQueue.enqueue(15);
-pseudoQueue.enqueue(10);
-pseudoQueue.enqueue(5);
-pseudoQueue.dequeue();
-console.log(pseudoQueue.stack2);
+// pseudoQueue.enqueue(20);
+// pseudoQueue.enqueue(15);
+// pseudoQueue.enqueue(10);
+// pseudoQueue.enqueue(5);
+// pseudoQueue.dequeue();
+// console.log(pseudoQueue.stack2);
